@@ -1,8 +1,3 @@
-CC = clang
-CFLAGS = -pedantic -W
-
-all: mt
-
-mt: mt.o
-
-mt.o: mt.c
+all: TuringMachine.c
+	gcc TuringMachine.c -o exq
+	./exq
