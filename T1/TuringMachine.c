@@ -45,7 +45,7 @@ typedef struct {
 #define S6 6
 #define S7 7
 #define Success 8
-#define Fail -1
+#define Fail 9
 
 Character band[MAX_BAND_LENGTH];
 State currentState = S0;
