@@ -1,0 +1,19 @@
+[2] Heap
+
+Tree T
+Empty: -> T
+Node: T x E x T -> T
+val: T -> E
+	val(empty) = 0
+	val(Node(l,e,r)) = e
+
+heap: T -> Boolean
+	heap(empty) = true
+	heap( Node(l,e,r) ) = l ≤ e ^ r ≤ e ^ heap(s) ^ heap(p)
+
+flatten: T -> List
+	flatten(Empty) = Void
+				     -- ins(l, ins(r, ins(e, ins(flatten(l), ins(flatten(r), L))) daca l < r
+	flatten( Node(l, e, r) )) = |
+				     -- ins(r, ins(l, ins(e, ins(flatten(r), ins(flatten(l), L))) altfel
+
