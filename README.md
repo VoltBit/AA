@@ -1,4 +1,4 @@
 AA
 ==
 
-Algorithm Analysis - Algorithm complexity, Turing Machines, Decidability - College assignments
+Algorithm Analysis - Algorithm complexity, Turing Machines, Decidability - University assignments
